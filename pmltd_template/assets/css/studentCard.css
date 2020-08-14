@@ -1,0 +1,91 @@
+main {
+  padding: 20px;
+}
+  
+  /* COMPONENT STYLES*/
+  
+  #card-holder{
+    width:70%;
+    margin:0 auto;
+    border-radius:6px;
+  }
+  .student p{
+    padding-left: 30px;
+  }
+  
+  .studentsCards {
+    background: #fff;
+    margin: 70px auto;
+    box-shadow: 0 2px 0 #1285c6;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .student {
+    display: flex;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    border-left: solid 4px rgba(18,133,198,.3);
+    border-right: solid 4px rgba(18,133,198,.3);
+    border-radius: 5px;
+    margin: 5px 0;
+    background: #e8e7e7;
+  }
+  
+  .student-details p {
+    text-transform: capitalize;
+    font-size:.8em;
+    line-height: 1.5em;
+    float:right;
+  }
+  
+  .student:last-of-type {
+    border-bottom-color: #008000; /*Have lost this... */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+ 
+ 
+  .student-name:hover .see-student {
+    visibility: visible;
+  }
+  
+  .student-name {
+    flex-grow: 1;
+    line-height: 3.5em;
+    padding-left: 40px;
+  }
+
+  .student button {
+    border-radius: 0;
+    background-color: rgba(18,133,198,.3);
+  }
+
+  .student p {
+    color: black;
+  }
+  
+  .see-student {
+    font-size: 1.15em;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    color: #EF5350;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    padding: 0;
+    background: none;
+  }
+  .student span{
+    height: 3em;
+    line-height:3em;
+    white-space: nowrap;
+    padding-left: 5px;
+  }
+  
+  #stats{
+    padding-right:20px;
+    color: black;
+  }
+  

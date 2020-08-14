@@ -1,0 +1,18 @@
+{
+  "name": "pmltd_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeScript.js",
+  "dependencies": {
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
